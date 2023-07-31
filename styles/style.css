@@ -77,6 +77,10 @@ p {
   .hero {
     padding: 80px 20px;
   }
+  .about-patricia {
+    text-align: center;
+    padding: 0;
+  }
 }
 .about-h1 {
   font-size: 64px;
@@ -96,12 +100,6 @@ p {
   margin: 30px;
 }
 
-@media (max-width: 960px) {
-  .about-patricia {
-    text-align: center;
-    padding: 0;
-  }
-}
 .about-section-container {
   text-align: center;
   padding: 160px 40px;
@@ -109,4 +107,30 @@ p {
 
 .patricia-image {
   border-radius: 25px;
+}
+.logo {
+  max-width: 150px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  padding: 20px 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li:active a {
+  color: var(--secondary-color);
 }
