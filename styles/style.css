@@ -77,30 +77,30 @@ p {
   .hero {
     padding: 80px 20px;
   }
-  .about-patricia {
+  .content {
     text-align: center;
     padding: 0;
   }
 }
-.about-h1 {
+.content-container h1 {
   font-size: 64px;
 }
-.about-h2 {
+.content-container h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.about-p {
+.content-container p {
   line-height: 30px;
   font-size: 16px;
 }
-.about-patricia {
+.content-container patricia {
   margin: 30px;
 }
 
-.about-section-container {
+.content-container {
   text-align: center;
   padding: 160px 40px;
 }
@@ -133,4 +133,13 @@ nav a {
 nav a:hover,
 nav li:active a {
   color: var(--secondary-color);
+}
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 2;
+}
+.content p {
+  font-size: 14px;
+  margin: 0;
 }
