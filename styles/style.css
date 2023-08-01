@@ -84,7 +84,6 @@ p {
     padding: 0;
     text-align: center;
   }
-
 }
 .content-container h1 {
   font-size: 64px;
@@ -179,12 +178,12 @@ h4 {
   font-family: var(--heading-font-family);
 }
 footer .contact-box p {
-    margin 0;
+  margin: 0;
 }
 
 footer .contact-box {
-    background: var(--branding-color);
-    padding: 30px 120px;
-    border-radius: 10px;
-    margin: 50px;
+  background: var(--branding-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+  margin: 50px;
 }
