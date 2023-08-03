@@ -1,11 +1,11 @@
-/* font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif; */
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Karla', sans-serif; */
 
 :root {
-  --branding-color: #f9f7fe;
-  --secondary-color: #6c63ff;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --branding-color: #f5f0e8;
+  --secondary-color: #a28f70;
+  --heading-font-family: "Karla", sans-serif;
+  --default-font-family: "Inconsolata", monospace;
 }
 
 h1 {
@@ -108,7 +108,7 @@ p {
   padding: 160px 40px;
 }
 
-.patricia-image {
+.brittany-image {
   border-radius: 25px;
 }
 .logo {
